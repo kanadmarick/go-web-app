@@ -1,0 +1,9 @@
+variable "region" {}
+variable "cluster_name" {}
+variable "cluster_version" {}
+variable "vpc_id" {}
+variable "private_subnets" {}
+variable "node_desired" {}
+variable "node_min" {}
+variable "node_max" {}
+variable "instance_types" {}
