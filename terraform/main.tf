@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "./modules/vpc.tf"
+  source = "./modules/vpc/"
 }
 
 module "eks" {
-  source = "./modules/eks.tf"
+  source = "./modules/eks/"
 }
