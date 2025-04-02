@@ -12,10 +12,10 @@ module "eks" {
 
   eks_managed_node_groups = {
     default = {
-      desired_size   = var.node_desired
-      min_size       = var.node_min
-      max_size       = var.node_max
-      instance_types = var.instance_types
+      desired_size   =1
+      min_size       = 1
+      max_size       = 1
+      instance_types = ["t3.micro"]
       capacity_type  = "ON_DEMAND"
     }
   }
